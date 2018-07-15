@@ -7,7 +7,7 @@ bool primeCheck (int num) { //Function for checking if the number is prime
        return false;
     }
        
-    for (float i=3; i <= sqrt(cast(float)num); i = i + 2) { //Checks divisors 
+    for (int i=3; i <= sqrt(cast(float)num); i = i + 2) { //Checks divisors 
             
         if (num%i == 0) {
                
@@ -16,4 +16,4 @@ bool primeCheck (int num) { //Function for checking if the number is prime
     }
        
     return true;
-    }
+}
