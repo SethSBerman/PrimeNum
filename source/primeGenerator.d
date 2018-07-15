@@ -1,22 +1,21 @@
 import std.math;
 
-bool primeCheck (float num) { //Function for checking if the number is prime
+bool primeCheck (int num) { //Function for checking if the number is prime
     
-    if (floor(num/2) == (num/2)) { //Check if the number is even, not strictly necessary with main implementation
+    float numF = cast(float)num;
+    
+    if (floor(numF/2) == (numF/2)) { //Check if the number is even, not strictly necessary with main implementation
+       
        return false;
     }
-
-    else {
        
-        for (float i=3; i <= sqrt(num); i = i + 2) { //Checks divisors 
+    for (float i=3; i <= sqrt(numF); i = i + 2) { //Checks divisors 
             
-            if (floor(num/i) == (num/i)) {
+        if (floor(numF/i) == (numF/i)) {
                
-                return false;
-            }
+             return false;
         }
-       
-        return true;
     }
-    
-}
+       
+    return true;
+    }
