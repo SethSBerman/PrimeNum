@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+primenum.so
+primenum.dylib
+primenum.dll
+primenum.a
+primenum.lib
+primenum-test-*
+*.exe
+*.o
+*.obj
+*.lst
+.vscode

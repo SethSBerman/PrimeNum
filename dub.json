@@ -1,0 +1,9 @@
+{
+	"name": "primenum",
+	"authors": [
+		"berma_000"
+	],
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2018, berma_000",
+	"license": "proprietary"
+}
